@@ -4,6 +4,11 @@
 **Zajęcia:** Nowa humanistyka, kulturoznawstwo, studia magisterskie
 **Strona projektu:** [adres z GitHub Pages, np. https://nazwa-konta.github.io/nazwa-repozytorium/]
 
+> [!NOTE]
+> **Na laboratorium:** instrukcje krok po kroku są w [podręczniku laboratorium](docs/podrecznik/README.md).
+> Prezentacja z zajęć: [„Lalka” 1887–2026: projekt od podstaw](https://claude.ai/artifact/ThG9USc6EBTba2iqBGSgz8).
+> Zgłoszenia projektów: [Issues w repozytorium szablonu](https://github.com/alblesniak/szablon-projektu/issues).
+
 ---
 
 ## Karta projektu
@@ -91,6 +96,7 @@ data/
   processed/            tabele po pseudonimizacji i wyniki: publikujemy
 prompts/                prompty i karta kodowa w wersjach
 docs/index.html         strona projektu (GitHub Pages)
+docs/podrecznik/        podręcznik laboratorium: ćwiczenia krok po kroku
 .devcontainer/          przepis na środowisko Codespaces
 requirements.txt        lista bibliotek Pythona
 ```
