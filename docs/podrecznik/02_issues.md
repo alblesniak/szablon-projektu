@@ -13,7 +13,9 @@
 
 ## Załóżcie te zadania
 
-| # | Tytuł | Kto | Gdzie |
+Wszystkie Issues zakładacie w repozytorium swojego zespołu. Kolumna „Kto” mówi, komu przypisać zadanie, a kolumna „Pracuje w” mówi, gdzie ta osoba je potem wykona.
+
+| # | Tytuł | Kto | Pracuje w |
 |---|---|---|---|
 | 1 | README: pola 1–2 karty projektu | A | codespace |
 | 2 | README: pola 3–4 karty projektu | B | github.com |
