@@ -82,8 +82,18 @@ W codespace są zmiany niezapisane commitem. Otwórz codespace, zrób **Zatwierd
 
 Copilot musi być włączony na twoim koncie GitHub. Wejdź na [github.com/settings/copilot](https://github.com/settings/copilot) i włącz bezpłatny plan (Copilot Free). Jeśli masz status studenta w GitHub Education, możesz mieć szerszy plan. Potem w codespace kliknij na dolnym pasku **Zaloguj się** (*Sign in*), jeśli jest widoczne.
 
-### Copilot pisze, że skończył się limit
+### Copilot pisze „Wykorzystano już limit przydziału modeli premium”
 
-Darmowy plan ma limit pytań w miesiącu. Wklej ten sam prompt do dowolnego czatu AI w drugiej karcie przeglądarki i przenieś kod do notatnika ręcznie. Notatniki są przygotowane tak, żeby to działało.
+Skończyła się miesięczna pula zapytań do Copilota. Zmiana modelu na liście nie pomaga, bo wszystkie modele korzystają z tej samej puli. Nie klikaj **Zarządzaj budżetem**, bo tam włącza się płatne zapytania. Limit odnowi się w kolejnym okresie rozliczeniowym. Do tego czasu wklej ten sam prompt do dowolnego czatu AI w drugiej karcie przeglądarki i przenieś kod do notatnika ręcznie; notatniki są przygotowane tak, żeby to działało. Treść polecenia, np. `/zrodlo`, znajdziesz w pliku `.github/skills/zrodlo/SKILL.md`: skopiuj ją do czatu razem ze swoją prośbą.
+
+![Czat Copilota: polecenie zrodlo wczytane, ale limit wyczerpany](img/co-jesli-limit-copilota.jpg)
+
+### Copilot pyta „Czy ufasz autorom plików w tym folderze?”
+
+Funkcje AI działają tylko w zaufanych folderach. Kliknij **Zaufaj folderowi i kontynuuj** i wyślij pytanie jeszcze raz.
+
+### Po wpisaniu `/` nie widać poleceń `/zrodlo`, `/pobierz`…
+
+Tuż po uruchomieniu codespace rozszerzenia jeszcze się włączają (na dolnym pasku: *Trwa aktywowanie rozszerzeń*). Poczekaj chwilę, wyczyść pole Czatu i wpisz `/` jeszcze raz, potem pierwsze litery polecenia. Lista znika po skasowaniu znaków, więc zaczynaj od pustego pola.
 
 [← Spis treści](README.md)

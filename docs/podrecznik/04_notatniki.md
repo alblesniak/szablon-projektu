@@ -54,6 +54,10 @@
 
 **Krok 11.** Porównaj wynik z sekcją „Po uruchomieniu powinieneś zobaczyć”. Jeśli jest błąd, wpisz w Czacie `/wyjasnij` i wklej treść błędu: Copilot wyjaśni go po polsku i zaproponuje najmniejszą poprawkę. Zapisz notatnik (**Ctrl+S**, na Macu **Cmd+S**).
 
+**Polecenia tego szablonu.** Zamiast kopiować prompt możesz użyć poleceń przygotowanych dla kursu. Wpisz w Czacie `/`, poczekaj chwilę na listę, dopisz pierwsze litery i wybierz polecenie, np. `/zrodlo` (rozpoznanie źródła) albo `/pobierz` (próbka danych). Po nazwie polecenia opisz, o co chodzi. W odpowiedzi pojawi się wtedy znacznik **Read skill**: Copilot wczytał polecenie. Wszystkie polecenia: [przepisy na dane](../przepisy/README.md#polecenia-copilota-w-tym-szablonie).
+
+![Lista poleceń w Czacie po wpisaniu /zr, z zaznaczonym poleceniem /zrodlo](img/04-6-polecenie-zrodlo.jpg)
+
 > [!TIP]
 > **Najpierw pytaj o sposób, potem o kod.** Darmowy Copilot ma ograniczoną liczbę pytań w miesiącu, więc lepiej zadać jedno dobrze opisane pytanie niż pięć krótkich. Nie masz Copilota? Ten sam prompt wklej do dowolnego czatu AI w drugiej karcie przeglądarki, a kod przenieś do notatnika.
 
