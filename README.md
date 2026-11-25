@@ -28,6 +28,8 @@ Wypełniajcie kartę na bieżąco. Pola 1–4 przygotowujecie na start, resztę 
 ### 3. Źródło tekstów
 *Skąd, ile i czy wolno pobrać?*
 
+Rozpoznanie źródła: w Czacie Copilota polecenie `/zrodlo`, potem [karta źródła](prompts/karta_zrodla_szablon.md) do sprawdzenia. Jak pobrać: [przepisy](docs/przepisy/README.md) (plik, API, YouTube, scraping).
+
 | Źródło | Co z niego bierzemy | Ile tekstów | Regulamin / prawo sprawdzone? |
 |---|---|---|---|
 | [np. Wolne Lektury] | [tekst powieści] | [1] | [tak, domena publiczna] |
@@ -94,9 +96,11 @@ notebooks/
 data/
   raw/                  surowe dane: NIE trafiają do repozytorium (.gitignore)
   processed/            tabele po pseudonimizacji i wyniki: publikujemy
-prompts/                prompty i karta kodowa w wersjach
+prompts/                prompty, karta kodowa i karty źródeł w wersjach
 docs/index.html         strona projektu (GitHub Pages)
 docs/podrecznik/        podręcznik laboratorium: ćwiczenia krok po kroku
+docs/przepisy/          przepisy na pobieranie danych: plik, API, YouTube, scraping
+.github/                instrukcje dla Copilota i polecenia /zrodlo, /pobierz, /koduj, /wykres, /wyjasnij
 .devcontainer/          przepis na środowisko Codespaces
 requirements.txt        lista bibliotek Pythona
 ```
@@ -113,7 +117,7 @@ requirements.txt        lista bibliotek Pythona
 
 ### Klucz API
 
-Klucza nigdy nie wpisujemy do kodu ani do notatnika. Przy tworzeniu codespace GitHub zapyta o sekret `OPENAI_API_KEY`. Można go też dodać później: **Settings → Secrets and variables → Codespaces → New repository secret**. Po dodaniu sekretu codespace trzeba uruchomić ponownie.
+Klucza nigdy nie wpisujemy do kodu ani do notatnika. Przy tworzeniu codespace GitHub może zapytać o sekrety `OPENAI_API_KEY` (model językowy) i `YOUTUBE_API_KEY` (tylko projekty z YouTube, [jak go założyć](docs/przepisy/02_youtube.md)). Można go też dodać później: **Settings → Secrets and variables → Codespaces → New repository secret**. Po dodaniu sekretu codespace trzeba uruchomić ponownie.
 
 ### Strona projektu
 

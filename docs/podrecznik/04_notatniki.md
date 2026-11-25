@@ -52,7 +52,7 @@
 
 **Krok 10.** Skopiuj kod z odpowiedzi Copilota (ikona kopiowania przy bloku kodu), wklej go do pustej komórki pod promptem i uruchom.
 
-**Krok 11.** Porównaj wynik z sekcją „Po uruchomieniu powinieneś zobaczyć”. Jeśli jest błąd, skopiuj jego treść do Czatu z prośbą: *Wyjaśnij ten błąd i popraw tylko ten krok*. Zapisz notatnik (**Ctrl+S**, na Macu **Cmd+S**).
+**Krok 11.** Porównaj wynik z sekcją „Po uruchomieniu powinieneś zobaczyć”. Jeśli jest błąd, wpisz w Czacie `/wyjasnij` i wklej treść błędu: Copilot wyjaśni go po polsku i zaproponuje najmniejszą poprawkę. Zapisz notatnik (**Ctrl+S**, na Macu **Cmd+S**).
 
 > [!TIP]
 > **Najpierw pytaj o sposób, potem o kod.** Darmowy Copilot ma ograniczoną liczbę pytań w miesiącu, więc lepiej zadać jedno dobrze opisane pytanie niż pięć krótkich. Nie masz Copilota? Ten sam prompt wklej do dowolnego czatu AI w drugiej karcie przeglądarki, a kod przenieś do notatnika.

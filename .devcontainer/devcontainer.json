@@ -8,13 +8,15 @@
   "secrets": {
     "OPENAI_API_KEY": {
       "description": "Klucz API do modelu językowego. Klucz od prowadzącego albo własny. Można pominąć i dodać później w ustawieniach repozytorium."
+    },
+    "YOUTUBE_API_KEY": {
+      "description": "Klucz YouTube Data API v3, tylko dla projektów z komentarzami z YouTube. Jak go założyć: docs/przepisy/02_youtube.md. Można pominąć."
     }
   },
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "README.md",
-        "notebooks/00_start.ipynb"
+        "README.md"
       ]
     },
     "vscode": {

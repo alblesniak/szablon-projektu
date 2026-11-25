@@ -47,6 +47,10 @@ Przy każdym kroku jest zrzut ekranu z zaznaczonym miejscem kliknięcia (pomara�
 | GitHub Pages | strona internetowa zbudowana z plików w repozytorium | witryna projektu |
 | Sekret | zaszyfrowana wartość, np. klucz API, dostępna w codespace | sejf |
 
+## Copilot i przepisy na dane
+
+W Czacie Copilota w codespace działają polecenia przygotowane dla tego kursu: `/zrodlo` (rozpoznanie źródła, bez kodu), `/pobierz` (próbka danych), `/koduj` (kodowanie przez model językowy), `/wykres` i `/wyjasnij` (wyjaśnienie kodu albo błędu). Wpisz `/` w polu Czatu, wybierz polecenie i dopisz, o co chodzi. Krok po kroku: [przepisy na pobieranie danych](../przepisy/README.md).
+
 ## Nazwy w VS Code: po polsku i po angielsku
 
 VS Code w codespace bierze język z przeglądarki. Zrzuty są po polsku; jeśli masz angielski interfejs, szukaj nazwy z prawej kolumny.

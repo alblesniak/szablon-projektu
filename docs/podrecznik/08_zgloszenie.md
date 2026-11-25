@@ -32,9 +32,10 @@
 
 ## Na następne zajęcia
 
-1. Pola 5–6 karty projektu w README: karta kodowa i plan walidacji.
-2. `prompts/karta_kodowa_szablon.md`: pierwsza wersja promptu i test na 5 trudnych tekstach.
-3. `notebooks/01_pobranie.ipynb` na próbce 20 tekstów, z zapisem `data/processed/teksty.csv`.
-4. Wszystko zapisane commitem i zsynchronizowane.
+1. `prompts/karta_zrodla_v1.md`: rozpoznanie źródła poleceniem `/zrodlo` i samodzielne sprawdzenie pól oznaczonych ✋ ([przepisy](../przepisy/README.md)).
+2. Pola 5–6 karty projektu w README: karta kodowa i plan walidacji.
+3. `prompts/karta_kodowa_szablon.md`: pierwsza wersja promptu i test na 5 trudnych tekstach.
+4. `notebooks/01_pobranie.ipynb` na próbce 20 tekstów, z zapisem `data/processed/teksty.csv` (własne źródło: polecenie `/pobierz`).
+5. Wszystko zapisane commitem i zsynchronizowane.
 
 [← Ćwiczenie 7](07_github_pages.md) · [Spis treści](README.md)
