@@ -13,8 +13,11 @@
 
 ## Osoba A: włączenie strony
 
-4. W repozytorium: **Settings → Pages**.
-5. W sekcji **Build and deployment**: **Source: Deploy from a branch**, **Branch: main**, folder **/docs** → **Save**.
+4. W repozytorium: **Settings → Pages** (1).
+5. W sekcji **Build and deployment**: **Source: Deploy from a branch** (2), **Branch: main** (3), folder **/docs** (4) → **Save** (5).
+
+    ![Ustawienia Pages: Deploy from a branch, main, /docs i Save](img/07-1-pages.jpg)
+
 6. Po 1–2 minutach odśwież stronę ustawień. U góry pojawi się adres strony i przycisk **Visit site**.
 7. Wpiszcie ten adres w `README.md`, w polu „Strona projektu”, i zróbcie commit.
 

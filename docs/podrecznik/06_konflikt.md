@@ -32,9 +32,9 @@
 
 1. **Osoba B, na github.com:** zmień w `README.md` linię „Zespół:” i zrób commit do `main`.
 2. **Osoba A, w codespace, bez wcześniejszego Sync:** zmień tę samą linię inaczej → zapisz → **Commit** → **Sync Changes**.
-3. VS Code oznaczy `README.md` jako plik z konfliktem (litera **!** w Source Control). Otwórz go.
-4. Nad konfliktem są przyciski: **Accept Current Change** (twoja wersja), **Accept Incoming Change** (wersja z GitHuba), **Accept Both Changes** (obie). W nowszych wersjach jest też **Resolve in Merge Editor**. Wybierz wersję albo popraw tekst ręcznie i usuń znaczniki.
-5. Zapisz plik → w Source Control kliknij **+** przy pliku (albo **Complete Merge**) → **Commit** (opis jest już wpisany) → **Sync Changes**.
+3. VS Code oznaczy `README.md` jako plik z konfliktem (litera **!** w **Kontroli źródła**). Otwórz go.
+4. Nad konfliktem są przyciski: **Accept Current Change** (twoja wersja), **Accept Incoming Change** (wersja z GitHuba), **Accept Both Changes** (obie). W polskim interfejsie mają przetłumaczone nazwy, w tej samej kolejności. Jest też **Resolve in Merge Editor**. Wybierz wersję albo popraw tekst ręcznie i usuń znaczniki.
+5. Zapisz plik → w **Kontroli źródła** kliknij **+** przy pliku (albo **Complete Merge**) → **Zatwierdź** (*Commit*; opis jest już wpisany) → **Synchronizuj zmiany** (*Sync Changes*).
 
 > [!WARNING]
 > **Konflikty w notatnikach są trudniejsze.** Notatnik to w środku jeden długi plik z kodem, wynikami i numerami uruchomień. Gdy dwie osoby uruchomią ten sam notatnik, zmiany są w wielu miejscach naraz i konflikt robi się nieczytelny. Dlatego jeden notatnik ma jednego właściciela. Jeśli konflikt w notatniku jednak się zdarzy:

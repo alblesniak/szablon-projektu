@@ -17,6 +17,9 @@ Po dzisiejszych zajęciach wasz zespół ma własne repozytorium z szablonu, zad
 | 6 | [Konflikt i jak go rozwiązać](06_konflikt.md) | oboje | 15 min |
 | 7 | [Publikacja na GitHub Pages](07_github_pages.md) | B, potem A | 10 min |
 | 8 | [Zgłoszenie u prowadzącego](08_zgloszenie.md) | jedna osoba | 5 min |
+| ? | [Co jeśli… Najczęstsze problemy](09_co_jesli.md) | kto utknie | |
+
+Przy każdym kroku jest zrzut ekranu z zaznaczonym miejscem kliknięcia (pomarańczowa ramka, numer i podpowiedź). Na początku ćwiczeń 1, 3, 4 i 5 jest też animacja całości: kliknij **▶**, żeby ją rozwinąć.
 
 ## Zasady współpracy
 
@@ -43,6 +46,21 @@ Po dzisiejszych zajęciach wasz zespół ma własne repozytorium z szablonu, zad
 | Konflikt | dwie osoby zmieniły to samo miejsce w pliku | dwie poprawki w jednym zdaniu |
 | GitHub Pages | strona internetowa zbudowana z plików w repozytorium | witryna projektu |
 | Sekret | zaszyfrowana wartość, np. klucz API, dostępna w codespace | sejf |
+
+## Nazwy w VS Code: po polsku i po angielsku
+
+VS Code w codespace bierze język z przeglądarki. Zrzuty są po polsku; jeśli masz angielski interfejs, szukaj nazwy z prawej kolumny.
+
+| Po polsku | Po angielsku | Gdzie |
+|---|---|---|
+| Eksplorator | Explorer | lewy pasek, lista plików |
+| Kontrola źródła | Source Control | lewy pasek, ikona rozgałęzienia |
+| Zatwierdź | Commit | przycisk w Kontroli źródła |
+| Synchronizuj zmiany | Sync Changes | przycisk w Kontroli źródła po commicie |
+| Wybierz jądro | Select Kernel | prawy górny róg notatnika |
+| Środowiska języka Python | Python Environments | lista po kliknięciu Wybierz jądro |
+| Zaufaj folderowi i kontynuuj | Trust Folder & Continue | okno przy pierwszym starcie codespace |
+| Czat | Chat | prawy panel z Copilotem |
 
 ## Linki
 

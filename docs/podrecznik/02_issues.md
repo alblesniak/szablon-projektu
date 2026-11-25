@@ -34,8 +34,13 @@ Opis piszecie zwykłym tekstem. Działa tu też prosty Markdown: `- [ ]` tworzy 
     Gotowe, gdy: oba pola są wypełnione i zsynchronizowane z GitHubem.
     ```
 
-4. Po prawej **Assignees**: wybierz osobę A.
+4. Po prawej **Assignees**: kliknij koło zębate i wybierz osobę A. Jeśli zadanie jest twoje, wystarczy **Assign yourself**.
 5. Kliknij **Create**. GitHub nada zadaniu numer #1.
+
+![Formularz nowego Issue: tytuł, opis z listą do odhaczania, Assignees i przycisk Create](img/02-1-nowe-issue.jpg)
+
+> [!TIP]
+> Edytor opisu sam dopisuje `- [ ]` po naciśnięciu Enter w liście. Jeśli pojawi się podwójne `- [ ] - [ ]`, usuń nadmiarowy znacznik. Zakładka **Preview** pokaże, jak wygląda gotowy opis.
 
 **Tak wygląda gotowe Issue:**
 

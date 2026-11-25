@@ -107,7 +107,7 @@ requirements.txt        lista bibliotek Pythona
 
 1. **Start:** zielony przycisk **Code** → zakładka **Codespaces** → **Create codespace on main**. Pierwsze uruchomienie trwa kilka minut, bo instalują się biblioteki.
 2. **Powrót do pracy:** wchodzisz na [github.com/codespaces](https://github.com/codespaces) i otwierasz istniejący codespace. Nie zakładaj nowego za każdym razem.
-3. **Zapis pracy:** ikona **Source Control** po lewej → opis zmiany → **Commit** → **Sync Changes**. Codespace to biurko, repozytorium to teczka: co nie zostało zapisane commitem i zsynchronizowane, nie istnieje w repozytorium.
+3. **Zapis pracy:** ikona **Kontrola źródła** (*Source Control*) po lewej → opis zmiany → **Zatwierdź** (*Commit*) → **Synchronizuj zmiany** (*Sync Changes*). Zrzuty ekranu krok po kroku: [ćwiczenie 5](docs/podrecznik/05_commit_i_sync.md). Codespace to biurko, repozytorium to teczka: co nie zostało zapisane commitem i zsynchronizowane, nie istnieje w repozytorium.
 4. **Praca w zespole:** przed pracą zrób **Sync**, żeby pobrać zmiany innych. Jeden plik edytuje naraz jedna osoba.
 5. **Koniec pracy:** zatrzymaj codespace (lista na github.com/codespaces → **Stop codespace**). Sam zatrzyma się po 30 minutach bezczynności.
 
