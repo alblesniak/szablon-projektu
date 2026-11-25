@@ -46,7 +46,7 @@ Przepisy poniżej mają **kod wzorcowy** (ukryty pod ▶). Zajrzyjcie do niego, 
 | `/wykres` | jeden wykres odpowiadający na jedno pytanie, zapis na stronę projektu | tak |
 | `/wyjasnij` | wyjaśnienie zaznaczonego kodu albo komunikatu błędu po polsku | tylko poprawka |
 
-Polecenia są zapisane w `.github/skills/`, a ogólne zasady dla Copilota w `.github/copilot-instructions.md`. Działają w panelu **Czat** w codespace: wpiszcie `/`, poczekajcie chwilę na listę, dopiszcie pierwsze litery i wybierzcie polecenie. Gdy Copilot je wczyta, w odpowiedzi pojawi się znacznik **Read skill**. Zrzut ekranu: [ćwiczenie 4](../podrecznik/04_notatniki.md). Nie macie Copilota albo skończył się limit? Te same zasady możecie wkleić do dowolnego czatu AI: otwórzcie plik `SKILL.md` polecenia i skopiujcie jego treść razem z waszą prośbą.
+Polecenia są zapisane w `.github/skills/`, a ogólne zasady dla asystentów AI (Copilot, Codex, Claude) w pliku [AGENTS.md](../../AGENTS.md) w głównym folderze. Działają w panelu **Czat** w codespace: wpiszcie `/`, poczekajcie chwilę na listę, dopiszcie pierwsze litery i wybierzcie polecenie. Gdy Copilot je wczyta, w odpowiedzi pojawi się znacznik **Read skill**. Zrzut ekranu: [ćwiczenie 4](../podrecznik/04_notatniki.md). Nie macie Copilota albo skończył się limit? Te same zasady możecie wkleić do dowolnego czatu AI: otwórzcie plik `SKILL.md` polecenia i skopiujcie jego treść razem z waszą prośbą.
 
 ## Prawo i etyka: przed pierwszym pobraniem
 

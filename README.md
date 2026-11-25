@@ -88,6 +88,7 @@ Zapisujcie tu każdą decyzję, która wpływa na wynik: definicję sceny, spos�
 
 ```
 README.md               karta projektu i dziennik decyzji (ten plik)
+AGENTS.md               zasady pracy asystentów AI (Copilot, Codex, Claude); CLAUDE.md odsyła tutaj
 notebooks/
   00_start.ipynb        test środowiska: biblioteki i klucz API
   01_pobranie.ipynb     pobranie tekstów i metadanych
@@ -100,7 +101,7 @@ prompts/                prompty, karta kodowa i karty źródeł w wersjach
 docs/index.html         strona projektu (GitHub Pages)
 docs/podrecznik/        podręcznik laboratorium: ćwiczenia krok po kroku
 docs/przepisy/          przepisy na pobieranie danych: plik, API, YouTube, scraping
-.github/                instrukcje dla Copilota i polecenia /zrodlo, /pobierz, /koduj, /wykres, /wyjasnij
+.github/skills/         polecenia /zrodlo, /pobierz, /koduj, /wykres, /wyjasnij (pliki SKILL.md)
 .devcontainer/          przepis na środowisko Codespaces
 requirements.txt        lista bibliotek Pythona
 ```
