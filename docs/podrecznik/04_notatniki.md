@@ -54,7 +54,7 @@
 
 **Krok 11.** Porównaj wynik z sekcją „Po uruchomieniu powinieneś zobaczyć”. Jeśli jest błąd, wpisz w Czacie `/wyjasnij` i wklej treść błędu: Copilot wyjaśni go po polsku i zaproponuje najmniejszą poprawkę. Zapisz notatnik (**Ctrl+S**, na Macu **Cmd+S**).
 
-**Polecenia tego szablonu.** Zamiast kopiować prompt możesz użyć poleceń przygotowanych dla kursu. Wpisz w Czacie `/`, poczekaj chwilę na listę, dopisz pierwsze litery i wybierz polecenie, np. `/zrodlo` (rozpoznanie źródła) albo `/pobierz` (próbka danych). Po nazwie polecenia opisz, o co chodzi. W odpowiedzi pojawi się wtedy znacznik **Read skill**: Copilot wczytał polecenie. Wszystkie polecenia: [przepisy na dane](../przepisy/README.md#polecenia-copilota-w-tym-szablonie).
+**Polecenia tego szablonu.** Zamiast kopiować prompt możesz użyć poleceń przygotowanych dla kursu. Wpisz w Czacie `/`, poczekaj chwilę na listę, dopisz pierwsze litery i wybierz polecenie, np. `/zrodlo` (rozpoznanie źródła) albo `/pobierz` (próbka danych). Po nazwie polecenia opisz, o co chodzi. W odpowiedzi pojawi się wtedy znacznik **Read skill**: Copilot wczytał polecenie. Wszystkie polecenia: [przepisy na dane](../przepisy/README.md#polecenia-copilota-w-tym-szablonie). Jak działają i jak napisać własne: [AI w projekcie](10_ai_w_projekcie.md).
 
 ![Lista poleceń w Czacie po wpisaniu /zr, z zaznaczonym poleceniem /zrodlo](img/04-6-polecenie-zrodlo.jpg)
 

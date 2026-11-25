@@ -96,4 +96,4 @@ Funkcje AI działają tylko w zaufanych folderach. Kliknij **Zaufaj folderowi i 
 
 Tuż po uruchomieniu codespace rozszerzenia jeszcze się włączają (na dolnym pasku: *Trwa aktywowanie rozszerzeń*). Poczekaj chwilę, wyczyść pole Czatu i wpisz `/` jeszcze raz, potem pierwsze litery polecenia. Lista znika po skasowaniu znaków, więc zaczynaj od pustego pola.
 
-[← Spis treści](README.md)
+[← Spis treści](README.md) · [AI w projekcie →](10_ai_w_projekcie.md)

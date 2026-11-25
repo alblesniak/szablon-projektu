@@ -18,6 +18,7 @@ Po dzisiejszych zajęciach wasz zespół ma własne repozytorium z szablonu, zad
 | 7 | [Publikacja na GitHub Pages](07_github_pages.md) | B, potem A | 10 min |
 | 8 | [Zgłoszenie u prowadzącego](08_zgloszenie.md) | jedna osoba | 5 min |
 | ? | [Co jeśli… Najczęstsze problemy](09_co_jesli.md) | kto utknie | |
+| AI | [AI w projekcie: AGENTS.md i polecenia](10_ai_w_projekcie.md) | lektura | 15 min |
 
 Przy każdym kroku jest zrzut ekranu z zaznaczonym miejscem kliknięcia (pomarańczowa ramka, numer i podpowiedź). Na początku ćwiczeń 1, 3, 4 i 5 jest też animacja całości: kliknij **▶**, żeby ją rozwinąć.
 
@@ -49,7 +50,7 @@ Przy każdym kroku jest zrzut ekranu z zaznaczonym miejscem kliknięcia (pomara�
 
 ## Copilot i przepisy na dane
 
-W Czacie Copilota w codespace działają polecenia przygotowane dla tego kursu: `/zrodlo` (rozpoznanie źródła, bez kodu), `/pobierz` (próbka danych), `/koduj` (kodowanie przez model językowy), `/wykres` i `/wyjasnij` (wyjaśnienie kodu albo błędu). Wpisz `/` w polu Czatu, wybierz polecenie i dopisz, o co chodzi. Krok po kroku: [przepisy na pobieranie danych](../przepisy/README.md).
+W Czacie Copilota w codespace działają polecenia przygotowane dla tego kursu: `/zrodlo` (rozpoznanie źródła, bez kodu), `/pobierz` (próbka danych), `/koduj` (kodowanie przez model językowy), `/wykres` i `/wyjasnij` (wyjaśnienie kodu albo błędu). Wpisz `/` w polu Czatu, wybierz polecenie i dopisz, o co chodzi. Krok po kroku: [przepisy na pobieranie danych](../przepisy/README.md). Jak to działa i jak napisać własne polecenie: [AI w projekcie](10_ai_w_projekcie.md).
 
 ## Nazwy w VS Code: po polsku i po angielsku
 
