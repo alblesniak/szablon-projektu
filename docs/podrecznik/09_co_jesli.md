@@ -58,6 +58,7 @@ Sprawdź, czy wybrane jest jądro (prawy górny róg). Jeśli przy komórce krę
 
 ## Commit i Sync
 
+<a id="divergent"></a>
 ### „Need to specify how to reconcile divergent branches”
 
 W codespace otwórz terminal (**☰ → Terminal → Nowy terminal**), wpisz:

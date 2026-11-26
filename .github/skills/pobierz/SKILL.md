@@ -9,6 +9,8 @@ disable-model-invocation: true
 
 Napisz kod do notatnika Jupyter, który pobiera **małą próbkę** z podanego źródła. Jeśli w `prompts/` jest karta źródła (`karta_zrodla_v*.md`), trzymaj się jej ustaleń. Gotowe wzory są w [docs/przepisy/](../../../docs/przepisy/README.md): sprawdź, czy któryś pasuje, i opieraj się na nim.
 
+Jeśli karta źródła mówi „ręcznie” (Filmweb, Reddit i inne serwisy, które zabraniają programów), nic nie pobieraj: napisz komórki, które wczytują ręcznie przygotowany CSV z `data/raw/` i go sprawdzają, jak w [przepisie 4](../../../docs/przepisy/04_reczna_probka.md).
+
 ## Podział na komórki
 
 1. **Parametry**: adres lub identyfikator źródła, `LIMIT` (domyślnie 20), nazwa projektu do nagłówka `User-Agent`. Klucz API tylko z `os.environ`.

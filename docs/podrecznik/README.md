@@ -3,7 +3,7 @@
 Po dzisiejszych zajęciach wasz zespół ma własne repozytorium z szablonu, zadania rozpisane w Issues, działający Codespace, kartę projektu w README, stronę na GitHub Pages i zgłoszenie u prowadzącego. Wszystko robimy w przeglądarce, na GitHubie.
 
 > [!NOTE]
-> **Role w parze.** Osoba A pracuje głównie w Codespaces, osoba B głównie na stronie github.com. Pracujesz sam? Wcielasz się w obie role: jako A pracujesz w codespace, jako B w drugiej karcie przeglądarki.
+> **Role w parze.** Osoba A pracuje głównie w Codespaces, osoba B głównie na stronie github.com. Pracujesz w pojedynkę? Grasz obie role: zobacz [Praca w pojedynkę](#w-pojedynke).
 
 ## Plan zajęć
 
@@ -21,6 +21,20 @@ Po dzisiejszych zajęciach wasz zespół ma własne repozytorium z szablonu, zad
 | AI | [AI w projekcie: AGENTS.md i polecenia](10_ai_w_projekcie.md) | lektura | 15 min |
 
 Przy każdym kroku jest zrzut ekranu z zaznaczonym miejscem kliknięcia (pomarańczowa ramka, numer i podpowiedź). Na początku ćwiczeń 1, 3, 4 i 5 jest też animacja całości: kliknij **▶**, żeby ją rozwinąć.
+
+<a id="w-pojedynke"></a>
+## Praca w pojedynkę
+
+Każde ćwiczenie da się zrobić bez pary. Grasz obie role, a zamiast drugiej osoby masz drugą kartę przeglądarki:
+
+| Karta przeglądarki | Rola | Co tam robisz |
+|---|---|---|
+| 1: codespace | osoba A | notatniki, **Zatwierdź** i **Synchronizuj zmiany** |
+| 2: github.com | osoba B | edycja plików ołówkiem, Issues, ustawienia repozytorium |
+
+1. **Kroki obu osób rób po kolei**, w kolejności z ćwiczenia. Tam, gdzie kolejność ma znaczenie (ćwiczenia 5 i 6), jest ramka 👤 **Pracujesz w pojedynkę?** z dokładnymi krokami.
+2. **Wszystkie Issues przypisz sobie** (**Assign yourself**). Kolumna „Pracuje w” w ćwiczeniu 2 mówi, w której karcie zrobisz zadanie.
+3. **Dla Gita twoje dwie karty to dwie osoby.** Po każdej zmianie na github.com kliknij w codespace **Synchronizuj zmiany** (albo strzałki na dolnym pasku), zanim zaczniesz tam pracę. Inaczej możesz wywołać konflikt między własnymi kartami (ćwiczenie 6 pokazuje, jak wygląda konflikt).
 
 ## Zasady współpracy
 

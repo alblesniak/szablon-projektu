@@ -67,12 +67,20 @@ Osoba B może zmieniać pliki bez codespace, prosto na github.com.
 - **Osoba B, w tym samym czasie, na github.com:** w `README.md` uzupełnij pola 3–4 (kroki 7–9), opis `Karta projektu: pola 3–4, closes #2`.
 - **Osoba A:** jeszcze raz **Synchronizuj zmiany**. W codespace README ma teraz obie części.
 
+> [!NOTE]
+> 👤 **Pracujesz w pojedynkę?** Zrób to samo w dwóch kartach, dokładnie w tej kolejności:
+> 1. **Karta z codespace:** uzupełnij w `README.md` pola 1–2, zapisz plik i kliknij **Zatwierdź** z opisem `Karta projektu: pola 1–2, closes #1`. Tak samo zatwierdź notatnik: `Krok 1A: pobranie próbki, closes #3`. **Nie klikaj jeszcze Synchronizuj zmiany.**
+> 2. **Karta z github.com:** odśwież stronę, otwórz `README.md` → ołówek, uzupełnij pola 3–4 i zrób commit z opisem `Karta projektu: pola 3–4, closes #2` (kroki 7–9). Na github.com nie ma jeszcze pól 1–2: to normalne, bo commity z codespace czekają na Sync.
+> 3. **Karta z codespace:** kliknij **Synchronizuj zmiany**. Git połączy obie zmiany i `README.md`, w codespace i na github.com, ma teraz pola 1–4. Komunikat „divergent branches”? Zobacz [Co jeśli…](09_co_jesli.md#divergent).
+>
+> Tak zobaczysz to samo co para: dwie zmiany tego samego pliku zrobione w dwóch miejscach łączą się bez konfliktu.
+
 > [!TIP]
 > **Dlaczego nie było konfliktu?** Git sam łączy zmiany, jeśli dotyczą różnych miejsc w pliku. Konflikt powstaje tylko wtedy, gdy dwie osoby zmienią tę samą linię. To przećwiczycie w ćwiczeniu 6.
 
 > [!IMPORTANT]
 > **Co nie trafia do repozytorium:** folder `data/raw/` (wpisany do pliku `.gitignore`) i klucz API. Dlatego pliki z `data/raw/` nie pojawiają się w Kontroli źródła. Publikujemy tylko `data/processed/`.
 
-✅ **Punkt kontrolny:** README na github.com ma uzupełnione pola 1–4, Issues #1–#4 są zamknięte, a w historii (link **Commits** nad listą plików) są commity obu osób.
+✅ **Punkt kontrolny:** README na github.com ma uzupełnione pola 1–4, Issues #1–#4 są zamknięte, a w historii (link **Commits** nad listą plików) są commity obu osób. W pojedynkę: twoje commity z codespace i z github.com.
 
 [← Ćwiczenie 4](04_notatniki.md) · [Spis treści](README.md) · [Ćwiczenie 6 →](06_konflikt.md)

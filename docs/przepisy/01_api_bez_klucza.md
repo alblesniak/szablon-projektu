@@ -4,21 +4,36 @@
 **Wynik:** pliki TXT w `data/raw/` i tabela `teksty` z jednym wierszem na tom.
 
 > [!NOTE]
-> **Co to jest API?** Adres, pod którym serwis odpowiada nie stroną dla ludzi, tylko danymi dla programów, zwykle w formacie JSON. Wolne Lektury mają otwarte API bez klucza: wpiszcie w przeglądarce [wolnelektury.pl/api/books/lalka/](https://wolnelektury.pl/api/books/lalka/), a zobaczycie, co dostaje program.
+> **Co to jest API?** Adres, pod którym serwis odpowiada nie stroną dla ludzi, tylko danymi dla programów, zwykle w formacie JSON. Wolne Lektury mają otwarte API bez klucza: wpiszcie w przeglądarce [wolnelektury.pl/api/books/lalka/?format=json](https://wolnelektury.pl/api/books/lalka/?format=json), a zobaczycie, co dostaje program.
 
 ## Krok po kroku
 
-1. **Znajdźcie książkę** na [wolnelektury.pl](https://wolnelektury.pl). Końcówka adresu to jej identyfikator (*slug*): `wolnelektury.pl/katalog/lektura/lalka/` → `lalka`.
-2. **Obejrzyjcie odpowiedź API** w przeglądarce: `https://wolnelektury.pl/api/books/lalka/`. Znajdźcie pola `title`, `authors`, `epochs` i `children`. „Lalka” ma dwa tomy, więc jej tekst jest w tomach wymienionych w `children`, a każdy tom ma pole `txt` z adresem pliku.
-3. **Poproście Copilota o kod**, np.:
+**Krok 1.** Znajdźcie książkę na [wolnelektury.pl](https://wolnelektury.pl). Końcówka adresu to jej identyfikator (*slug*): `wolnelektury.pl/katalog/lektura/lalka/` → `lalka`.
 
-    ```
-    /pobierz Teksty obu tomów „Lalki” z API Wolnych Lektur (https://wolnelektury.pl/api/books/lalka/).
-    Tomy są w polu children, plik tekstowy w polu txt każdego tomu. Zapisz pliki w ../data/raw/,
-    usuń stopkę licencyjną i zbuduj tabelę z autorem, epoką, adresem i liczbą słów.
-    ```
+**Krok 2.** Obejrzyjcie odpowiedź API w przeglądarce: `https://wolnelektury.pl/api/books/lalka/?format=json`. U góry zaznaczcie **Zastosuj formatowanie stylistyczne** (*Pretty-print*), wtedy każde pole jest w osobnym wierszu. Znajdźcie tytuł (1), epokę (2), autora (3) i listę `children` (4).
 
-4. **Uruchomcie i porównajcie** z sekcją poniżej. Jeśli coś nie działa, porównajcie z kodem wzorcowym.
+![Odpowiedź API Wolnych Lektur w przeglądarce: pola title, epochs, authors i children](img/p1-1-odpowiedz-api.jpg)
+
+> [!TIP]
+> Bez `?format=json` przeglądarka dostanie tę samą odpowiedź w formacie XML (drzewo znaczników). Program w Pythonie dostaje JSON bez tego dopisku.
+
+**Krok 3.** Przewińcie do `children` (1). „Lalka” ma dwa tomy, więc jej tekst jest w tomach, a nie w całej książce: pole `txt` na dole jest puste. Każdy tom ma własny adres w API (2, 3).
+
+![Lista children z adresami tomów i puste pole txt całej książki](img/p1-2-tomy.jpg)
+
+**Krok 4.** Otwórzcie adres jednego tomu. W jego odpowiedzi pole `txt` (1) zawiera adres pliku z tekstem. Tego szuka program: najpierw książka, potem tomy, potem pliki TXT.
+
+![Odpowiedź API dla tomu pierwszego z zaznaczonym polem txt](img/p1-3-plik-txt.jpg)
+
+**Krok 5.** Wklejcie do notatnika kod wzorcowy z końca przepisu (trzy komórki, jedna pod drugą) albo poproście Copilota w Czacie, np.:
+
+```
+Napisz kod do notatnika, który pobiera teksty obu tomów „Lalki” z API Wolnych Lektur (https://wolnelektury.pl/api/books/lalka/).
+Tomy są w polu children, plik tekstowy w polu txt każdego tomu. Zapisz pliki w ../data/raw/,
+usuń stopkę licencyjną i zbuduj tabelę z autorem, epoką, adresem i liczbą słów.
+```
+
+**Krok 6.** Uruchomcie kod w notatniku i porównajcie wynik z sekcją poniżej. Jeśli coś nie działa, porównajcie z kodem wzorcowym.
 
 ## Po uruchomieniu powinniście zobaczyć
 

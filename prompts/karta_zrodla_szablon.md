@@ -2,13 +2,13 @@
 
 Wersja: v1 · Data rozpoznania: [rrrr-mm-dd] · Zespół: [imiona]
 
-Jedna karta na jedno źródło. Skopiujcie ten plik jako `karta_zrodla_v1.md` (albo `karta_zrodla_youtube_v1.md`, jeśli źródeł jest kilka) i wypełnijcie. Szkic może przygotować Copilot poleceniem `/zrodlo`, ale każde pole oznaczone ✋ sprawdzacie sami w dokumentacji albo regulaminie.
+Jedna karta na jedno źródło. Wspólny projekt „Lalka”: gotowe karty są w [prompts/karty/](karty/README.md). Skopiujcie ten plik jako `karta_zrodla_v1.md` (albo `karta_zrodla_youtube_v1.md`, jeśli źródeł jest kilka) i wypełnijcie. Szkic może przygotować Copilot poleceniem `/zrodlo`, ale każde pole oznaczone ✋ sprawdzacie sami w dokumentacji albo regulaminie.
 
 | Pole | Co wpisać | Wasza odpowiedź |
 |---|---|---|
 | Co pobieramy | rodzaj tekstów i jednostka analizy (komentarz, recenzja, rozdział…) | |
 | Skąd | serwis i dokładny adres (film, wątek, książka) | |
-| Droga | gotowy plik / API / scraping, jedno zdanie: dlaczego ta | |
+| Droga | gotowy plik / API / scraping / ręcznie, jedno zdanie: dlaczego ta | |
 | Dokumentacja ✋ | link do oficjalnej dokumentacji API albo opisu eksportu | |
 | Klucz lub konto | czy potrzebne, gdzie je założyć, nazwa sekretu w Codespaces | |
 | Limity ✋ | ile zapytań lub rekordów dziennie, ile kosztuje jedno zapytanie | |

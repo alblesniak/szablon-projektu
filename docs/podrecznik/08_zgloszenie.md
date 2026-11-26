@@ -23,6 +23,9 @@
 **Największy problem na dziś:** co nie działa albo czego nie wiecie
 ```
 
+> [!NOTE]
+> 👤 **Pracujesz w pojedynkę?** W polu **Zespół** wpisz tylko siebie i dopisz „w pojedynkę”, np. `Imię Nazwisko (login), w pojedynkę`.
+
 ## Na koniec zajęć (oboje)
 
 - W swoim codespace: **Commit** i **Sync**.

@@ -5,6 +5,9 @@
 > [!NOTE]
 > **GitHub Pages** zamienia pliki z folderu `docs/` w stronę internetową. Każdy commit w `docs/` aktualizuje stronę po minucie lub dwóch. Strona startowa to plik `docs/index.html`.
 
+> [!NOTE]
+> 👤 **Pracujesz w pojedynkę?** Zrób obie części po kolei w karcie z github.com, a na dole strony wpisz swoje imię. Na koniec w karcie z codespace kliknij **Synchronizuj zmiany** (albo strzałki na dolnym pasku), żeby codespace miał zmiany z github.com.
+
 ## Osoba B: zadanie #5, na github.com
 
 1. Otwórz `docs/index.html` → ołówek.

@@ -7,6 +7,9 @@
 
 Wszystkie Issues zakładacie w repozytorium swojego zespołu, w zakładce **Issues**. Zakłada je osoba A; osoba B w tym czasie może je czytać i komentować.
 
+> [!NOTE]
+> 👤 **Pracujesz w pojedynkę?** Załóż wszystkie 5 zadań i każde przypisz sobie: **Assignees → Assign yourself**. W tabeli na dole patrz na kolumnę **Pracuje w**: mówi, czy zadanie zrobisz w karcie z codespace, czy w karcie z github.com.
+
 ## Z czego składa się Issue
 
 | Pole | Co wpisać |

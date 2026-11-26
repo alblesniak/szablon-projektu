@@ -74,7 +74,7 @@ Nie pisz kodu. Rozpoznaj, czy i jak można pobrać materiał.
 
 ## Kroki
 1. Ustal: co, skąd, ile i po co.
-2. Opisz trzy drogi: plik, API, scraping.
+2. Opisz cztery drogi: plik, API, scraping, ręcznie.
 3. Wypisz sprawy prawne i etyczne.
 4. Zaproponuj próbkę na start.
 5. Wypełnij kartę źródła.

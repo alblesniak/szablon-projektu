@@ -42,6 +42,9 @@
 
 ## Osoba A: zaproszenie osoby B
 
+> [!NOTE]
+> 👤 **Pracujesz w pojedynkę?** Pomiń kroki 6–8 i przejdź do punktu kontrolnego na dole. Jeśli ktoś dołączy do twojego projektu później, wróć do kroków 6–7 i zaproś tę osobę.
+
 **Krok 6.** W repozytorium zespołu kliknij **Settings** (1), po lewej **Collaborators** (2), a potem **Add people** (3).
 
 > [!IMPORTANT]
@@ -60,6 +63,6 @@
 > [!TIP]
 > **Dlaczego Public?** Darmowe GitHub Pages działa tylko z repozytoriów publicznych. Surowych danych i kluczy API i tak nie publikujemy, o czym w ćwiczeniu 5.
 
-✅ **Punkt kontrolny:** obie osoby otwierają repozytorium zespołu i widzą README z kartą projektu.
+✅ **Punkt kontrolny:** obie osoby otwierają repozytorium zespołu i widzą README z kartą projektu. W pojedynkę: widzisz README z kartą projektu we własnym repozytorium.
 
 [← Spis treści](README.md) · [Ćwiczenie 2 →](02_issues.md)

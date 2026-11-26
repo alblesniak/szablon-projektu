@@ -1,16 +1,27 @@
 # Przepisy: skąd wziąć dane
 
-Każdy projekt zaczyna się od pytania: **czy materiał, którego potrzebuję, w ogóle da się zdobyć, i w jaki sposób?** Te przepisy uczą, jak to sprawdzić i jak pobrać małą próbkę. Nie trzeba umieć programować: kod pisze Copilot, a wy sprawdzacie, czy robi to, co trzeba.
+Przepis to tutorial: krok po kroku, z kodem do wklejenia do notatnika i z wynikiem, który powinien się pokazać.
 
-## Trzy drogi do danych
+## Na laboratorium: wybierzcie jedną drogę
+
+| Droga | Tutorial | Co pobieracie | Co potrzeba |
+|---|---|---|---|
+| **API** | [2. Komentarze z YouTube](02_youtube.md) | komentarze pod filmem o „Lalce” | klucz API (część A przepisu, ok. 10 minut) |
+| **Scraper** | [3. Piszemy scraper](03_scraping.md) | cytaty ze strony do ćwiczeń, potem dowolna strona | nic, tylko notatnik |
+| rozgrzewka | [1. API bez klucza](01_api_bez_klucza.md) | tekst „Lalki” z Wolnych Lektur | nic |
+
+Na koniec: karta projektu (pola 1–4 w `README.md`), **Zatwierdź** i **Synchronizuj zmiany**.
+
+## Cztery drogi do danych
 
 | Droga | Kiedy | Przykład | Przepis |
 |---|---|---|---|
 | **Gotowy plik lub eksport** | serwis udostępnia pliki do pobrania | Wolne Lektury: TXT, EPUB | [1. API bez klucza](01_api_bez_klucza.md) |
 | **Oficjalne API** | serwis ma interfejs dla programów; czasem trzeba założyć klucz | YouTube Data API | [2. Komentarze z YouTube](02_youtube.md) |
-| **Scraping** | dane są tylko na stronach WWW, a regulamin i `robots.txt` na to pozwalają | portale z recenzjami, fora | [3. Scraping strony](03_scraping.md) |
+| **Scraping** | dane są tylko na stronach WWW, a regulamin i `robots.txt` na to pozwalają | strony bez zakazu botów | [3. Scraping strony](03_scraping.md) |
+| **Ręczna próbka** | API jest niedostępne, a regulamin albo `robots.txt` zabrania programów | Filmweb, Reddit | [4. Ręczna próbka](04_reczna_probka.md) |
 
-Zawsze wybierajcie drogę **najwyżej** w tabeli. API jest stabilniejsze i bezpieczniejsze prawnie niż scraping, a gotowy plik jest prostszy niż API.
+Zawsze wybierajcie drogę **najwyżej** w tabeli. API jest stabilniejsze i bezpieczniejsze prawnie niż scraping, a gotowy plik jest prostszy niż API. Ręczna próbka jest ostatnia, ale w pełni uprawniona: kilkadziesiąt dobrze dobranych tekstów to w humanistyce normalna próba.
 
 ```mermaid
 flowchart TD
@@ -24,23 +35,36 @@ flowchart TD
     G -- tak --> H{"Tekst jest w HTML strony?"}
     H -- tak --> I["Scraping<br/>(przepis 3)"]
     H -- "nie, ładuje go JavaScript" --> J["Porozmawiaj z prowadzącym<br/>albo zmień źródło"]
-    G -- nie --> J
+    G -- nie --> K["Ręczna próbka<br/>(przepis 4)"]
 ```
 
-## Pętla pracy z Copilotem: plan → próbka → sprawdzenie → skala
+## Wspólny projekt „Lalka”: od warstwy do przepisu
 
-1. **Plan, bez kodu.** W Czacie Copilota wpiszcie `/zrodlo` i opiszcie, co chcecie pobrać, np. `/zrodlo komentarze pod zwiastunem serialu „Lalka” na YouTube`. Copilot porówna trzy drogi i przygotuje szkic [karty źródła](../../prompts/karta_zrodla_szablon.md).
-2. **Sprawdzenie planu.** Pola karty oznaczone ✋ sprawdźcie sami w dokumentacji i regulaminie. Copilot się myli: zapiszcie w karcie, w czym.
-3. **Próbka.** `/pobierz 20 komentarzy spod filmu …`. Kod wklejacie do notatnika, uruchamiacie i oglądacie wynik oczami: czy to są te teksty, czy polskie znaki są czytelne, czy nie ma pustych wierszy.
+| Warstwa | Źródło | Karta źródła | Przepis |
+|---|---|---|---|
+| `lalka-powiesc` | Wolne Lektury | [gotowa](../../prompts/karty/lalka_powiesc_wolne_lektury.md) | [1. API bez klucza](01_api_bez_klucza.md) |
+| `lalka-recepcja` | YouTube | [gotowa](../../prompts/karty/lalka_recepcja_youtube.md) | [2. Komentarze z YouTube](02_youtube.md) |
+| `lalka-recepcja` | Filmweb | [gotowa](../../prompts/karty/lalka_recepcja_filmweb.md) | [4. Ręczna próbka](04_reczna_probka.md) |
+| `lalka-recepcja` | Reddit | [gotowa](../../prompts/karty/lalka_recepcja_reddit.md) | [4. Ręczna próbka](04_reczna_probka.md) |
+| `lalka-recepcja` | dawna prasa | [do rozpoznania](../../prompts/karty/lalka_recepcja_prasa.md) | `/zrodlo`, potem 3 albo 4 |
+| `lalka-ekran` | serwisy z filmami | [otwarte pytanie](../../prompts/karty/lalka_ekran_dialogi.md) | decyzja z prowadzącym |
+
+Każde źródło przechodzi ten sam workflow: **karta → przepis → próbka → kontrola → Commit**. Gotową kartę kopiujecie jako `prompts/karta_zrodla_v1.md` i uzupełniacie adresy. Źródło bez karty zaczynacie od `/zrodlo`. Wszystkie karty: [prompts/karty/](../../prompts/karty/README.md).
+
+## Rytm pracy: plan → próbka → sprawdzenie → skala
+
+1. **Plan.** Ustalcie, co pobieracie, skąd i ile (karta projektu, pole 3).
+2. **Próbka.** Kod z przepisu (albo od Copilota) wklejacie do notatnika, uruchamiacie i oglądacie wynik oczami: czy to są te teksty, czy polskie znaki są czytelne, czy nie ma pustych wierszy.
+3. **Sprawdzenie.** Porównajcie wynik z sekcją „Powinno się pokazać” w przepisie. Błąd? Wklejcie go do Czatu Copilota i zapytajcie, co znaczy.
 4. **Skala.** Dopiero gdy próbka jest dobra, zwiększacie limit. Decyzję i datę pobrania zapisujecie w dzienniku decyzji w `README.md`.
 
-Przepisy poniżej mają **kod wzorcowy** (ukryty pod ▶). Zajrzyjcie do niego, gdy wasz kod nie działa albo chcecie porównać rozwiązania.
+Każdy przepis prowadzi krok po kroku, ze zrzutem ekranu przy każdym kroku i z wynikiem, który powinniście zobaczyć. Na końcu ma **kod wzorcowy** (ukryty pod ▶). Zajrzyjcie do niego, gdy wasz kod nie działa albo chcecie porównać rozwiązania.
 
-## Polecenia Copilota w tym szablonie
+## Polecenia Copilota (dla chętnych)
 
 | Polecenie | Co robi | Pisze kod? |
 |---|---|---|
-| `/zrodlo` | rozpoznanie źródła: trzy drogi, klucze, limity, regulamin, dane osobowe; szkic karty źródła | nie |
+| `/zrodlo` | rozpoznanie źródła: cztery drogi, klucze, limity, regulamin, dane osobowe; szkic karty źródła | nie |
 | `/pobierz` | kod pobrania małej próbki do notatnika, z zapisem do `data/raw/` | tak |
 | `/koduj` | kod kodowania tekstów modelem językowym według karty kodowej | tak |
 | `/wykres` | jeden wykres odpowiadający na jedno pytanie, zapis na stronę projektu | tak |

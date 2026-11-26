@@ -4,7 +4,7 @@ Ten plik czytają asystenci AI pracujący w repozytorium: GitHub Copilot, Codex,
 
 ## Kim jesteśmy
 
-To projekt studencki z nowej humanistyki (kulturoznawstwo, studia magisterskie). Pracują nad nim dwuosobowe zespoły, które dopiero uczą się programowania. Projekt ma trzy etapy: **pobranie tekstów** (pliki, API, scraping), **analiza** (zwykłe liczenie i kodowanie tekstów przez model językowy według karty kodowej) i **wizualizacja**. Pracujemy w GitHub Codespaces, w notatnikach Jupyter (`notebooks/`).
+To projekt studencki z nowej humanistyki (kulturoznawstwo, studia magisterskie). Pracują nad nim dwuosobowe zespoły, które dopiero uczą się programowania; niektóre osoby pracują w pojedynkę i wtedy pełnią obie role (zob. `docs/podrecznik/README.md`, „Praca w pojedynkę”). Projekt ma trzy etapy: **pobranie tekstów** (pliki, API, scraping), **analiza** (zwykłe liczenie i kodowanie tekstów przez model językowy według karty kodowej) i **wizualizacja**. Pracujemy w GitHub Codespaces, w notatnikach Jupyter (`notebooks/`).
 
 ## Jak odpowiadać
 
@@ -27,7 +27,8 @@ To projekt studencki z nowej humanistyki (kulturoznawstwo, studia magisterskie).
 
 ## Pobieranie danych
 
-- Kolejność: **gotowy plik lub eksport → oficjalne API → scraping**. Zawsze podaj link do oficjalnej dokumentacji.
+- Kolejność: **gotowy plik lub eksport → oficjalne API → scraping → ręczna próbka** (gdy regulamin albo `robots.txt` zabrania programów, np. Filmweb, Reddit). Zawsze podaj link do oficjalnej dokumentacji.
+- We wspólnym projekcie „Lalka” gotowe karty źródeł są w `prompts/karty/`: zacznij od nich.
 - Przed scrapingiem sprawdź `robots.txt` (np. `urllib.robotparser`) i przypomnij o regulaminie serwisu.
 - Każde zapytanie: nagłówek `User-Agent` z opisem projektu, przerwa co najmniej 1 sekunda, obsługa błędów bez przerywania całej pętli.
 - Zaczynaj od małej próbki (5–20 rekordów). Skalowanie dopiero, gdy student potwierdzi, że próbka jest dobra.
